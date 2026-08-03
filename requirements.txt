@@ -1,0 +1,36 @@
+# AlphaVerse - AlphaPulse Module Dependencies
+# Python 3.14+ 호환 버전으로 검증됨
+
+# News Collection
+feedparser==6.0.11
+httpx==0.27.2
+
+# AI Analysis
+google-generativeai==0.8.3
+
+# Text Processing (for TF-IDF clustering)
+scikit-learn>=1.0.0
+numpy>=1.24.0
+
+# Telegram Bot
+python-telegram-bot==21.6
+
+# Scheduler
+APScheduler==3.10.4
+
+# Data Models
+pydantic>=2.9.0
+pydantic-settings>=2.5.0
+
+# Database
+tinydb==4.8.2
+
+# Configuration
+python-dotenv==1.0.1
+
+# Logging
+loguru==0.7.2
+
+# Testing
+pytest==8.3.3
+pytest-asyncio==0.24.0
